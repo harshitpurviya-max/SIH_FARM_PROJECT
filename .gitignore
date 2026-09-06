@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+postgres_data/
+redis_data/
+node_modules/
+dist/
+
