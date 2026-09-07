@@ -46,7 +46,7 @@ async def lifespan(_: FastAPI):
 app = FastAPI(title="SIHFarm Procurement API", version="0.2.0", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://sih-farm-project.vercel.app/"],
+    allow_origins=["https://sih-farm-project.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
